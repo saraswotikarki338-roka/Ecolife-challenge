@@ -1,0 +1,75 @@
+/* ==========================
+   Dark Mode Styles
+========================== */
+
+
+/* Dark mode body */
+.dark-mode {
+    background-color: #1b1b1b;
+    color: white;
+}
+
+
+/* Header */
+.dark-mode header {
+    background-color: #000000;
+}
+
+
+/* Navigation links */
+.dark-mode nav ul li a {
+    color: white;
+}
+
+
+.dark-mode nav ul li a:hover {
+    color: #FFC107;
+}
+
+
+/* Hero Section */
+.dark-mode #hero {
+    background-color: #263238;
+}
+
+
+/* Sections */
+.dark-mode #how-it-works,
+.dark-mode #statistics {
+    background-color: #1b1b1b;
+}
+
+
+/* Cards */
+.dark-mode .step,
+.dark-mode .challenge-card {
+    background-color: #333333;
+    color: white;
+    border-color: #555;
+}
+
+
+/* Statistics boxes */
+.dark-mode .stat-box {
+    background-color: #004d40;
+}
+
+
+/* Eco Fact */
+.dark-mode #eco-fact,
+.dark-mode #featured-challenges {
+    background-color: #263238;
+}
+
+
+/* Footer */
+.dark-mode footer {
+    background-color: #000000;
+}
+
+
+/* Button */
+.dark-mode button {
+    background-color: #FFC107;
+    color: black;
+}
