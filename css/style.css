@@ -226,3 +226,65 @@ footer {
     font-size: 16px;
     margin-bottom: 0;
 }
+/* ==========================
+   Featured Challenges
+========================== */
+
+#featured-challenges {
+    padding: 60px 20px;
+    background-color: #E8F5E9;
+    text-align: center;
+}
+
+#featured-challenges h2 {
+    font-size: 36px;
+    color: #2E7D32;
+    margin-bottom: 20px;
+}
+
+#featured-challenges p {
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.challenge-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.challenge-card {
+    width: 300px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #C8E6C9;
+    transition: transform 0.3s ease;
+}
+
+.challenge-card:hover {
+    transform: translateY(-10px);
+}
+
+.challenge-card h3 {
+    color: #2E7D32;
+    margin-bottom: 15px;
+}
+
+.challenge-card p {
+    margin-bottom: 20px;
+}
+
+.challenge-card button {
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.challenge-card button:hover {
+    background-color: #1B5E20;
+}
