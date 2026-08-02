@@ -32,6 +32,7 @@ quizForm.addEventListener("submit", function(event) {
 
     let q3 = document.querySelector(
         'input[name="q3"]:checked'
+    
     );
 
 
@@ -105,6 +106,11 @@ quizForm.addEventListener("submit", function(event) {
 
 
     }
+    // Save quiz score
+localStorage.setItem(
+    "quizScore",
+    score
+);
 
 
 

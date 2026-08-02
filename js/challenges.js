@@ -109,6 +109,24 @@ completeButtons.forEach(function(button) {
         button.style.backgroundColor = "#66BB6A";
 
 
+
+        let completed =
+        Number(localStorage.getItem("completedChallenges"))
+        || 0;
+
+
+
+        completed++;
+
+
+
+        localStorage.setItem(
+            "completedChallenges",
+            completed
+        );
+
+
+
     });
 
 
