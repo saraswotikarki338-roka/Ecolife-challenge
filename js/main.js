@@ -2,10 +2,7 @@
 // EcoLife Challenge - Main JavaScript
 // ===============================
 
-// Welcome Message
-window.onload = function () {
-    alert("Welcome to EcoLife Challenge!");
-};
+
 
 // Start Challenge Button
 const startButton = document.getElementById("startButton");
