@@ -174,3 +174,55 @@ footer {
     text-align: center;
     padding: 20px;
 }
+/* ==========================
+   Why Choose EcoLife
+========================== */
+
+#why-ecolife {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#why-ecolife h2 {
+    font-size: 36px;
+    color: #2E7D32;
+    margin-bottom: 20px;
+}
+
+#why-ecolife p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #555555;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    flex: 1;
+    min-width: 250px;
+    background-color: #F5FFF5;
+    border: 1px solid #C8E6C9;
+    border-radius: 10px;
+    padding: 25px;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+}
+
+.feature-card h3 {
+    color: #2E7D32;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
