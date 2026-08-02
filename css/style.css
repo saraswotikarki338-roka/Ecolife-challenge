@@ -1317,3 +1317,124 @@ footer {
     color: #555;
 
 }
+/* ==========================
+   Contact Page
+========================== */
+
+
+/* Contact Hero */
+
+#contact-hero {
+
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #E8F5E9;
+
+}
+
+
+#contact-hero h2 {
+
+    font-size: 40px;
+    color: #2E7D32;
+    margin-bottom: 15px;
+
+}
+
+
+#contact-hero p {
+
+    font-size: 18px;
+    color: #555;
+
+}
+
+
+
+/* Contact Section */
+
+#contact-section {
+
+    padding: 60px 20px;
+
+}
+
+
+
+#contactForm {
+
+    max-width: 600px;
+    margin: auto;
+    background-color: #F5FFF5;
+    padding: 35px;
+    border-radius: 15px;
+    border: 1px solid #C8E6C9;
+
+}
+
+
+
+#contactForm label {
+
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+
+}
+
+
+
+#contactForm input,
+#contactForm textarea {
+
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+
+}
+
+
+
+#contactForm textarea {
+
+    height: 150px;
+    resize: none;
+
+}
+
+
+
+#contactForm button {
+
+    margin-top: 25px;
+    padding: 14px 35px;
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+
+
+#contactForm button:hover {
+
+    background-color: #1B5E20;
+
+}
+
+
+
+#contact-result {
+
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    color: #2E7D32;
+
+}
