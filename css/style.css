@@ -959,3 +959,138 @@ footer {
     color: #2E7D32;
 
 }
+/* ==========================
+   Quiz Page
+========================== */
+
+
+/* Quiz Hero */
+
+
+#quiz-hero {
+
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #E8F5E9;
+
+}
+
+
+#quiz-hero h2 {
+
+    font-size: 40px;
+    color: #2E7D32;
+    margin-bottom: 15px;
+
+}
+
+
+#quiz-hero p {
+
+    font-size: 18px;
+    color: #555;
+
+}
+
+
+
+
+/* Quiz Section */
+
+
+#quiz-section {
+
+    padding: 60px 20px;
+
+}
+
+
+
+#quizForm {
+
+    max-width: 700px;
+    margin: auto;
+    background-color: #F5FFF5;
+    padding: 35px;
+    border-radius: 15px;
+    border: 1px solid #C8E6C9;
+
+}
+
+
+
+
+.question {
+
+    margin-bottom: 35px;
+
+}
+
+
+
+.question h3 {
+
+    color: #2E7D32;
+    margin-bottom: 15px;
+
+}
+
+
+
+
+.question label {
+
+    display: block;
+    padding: 10px;
+    background-color: white;
+    margin: 8px 0;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+
+
+.question label:hover {
+
+    background-color: #E8F5E9;
+
+}
+
+
+
+
+
+#quizForm button {
+
+    display: block;
+    margin: 30px auto 0;
+    padding: 14px 35px;
+    border: none;
+    background-color: #2E7D32;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+
+
+#quizForm button:hover {
+
+    background-color: #1B5E20;
+
+}
+
+
+
+
+#quiz-result {
+
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #2E7D32;
+
+}
