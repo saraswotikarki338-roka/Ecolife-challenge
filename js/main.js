@@ -102,3 +102,61 @@ learnButtons.forEach(function(button) {
 
 
 });
+// ===============================
+// Dark Mode Toggle
+// ===============================
+
+
+const darkButton =
+document.getElementById("darkToggle");
+
+
+
+if(darkButton){
+
+
+darkButton.addEventListener("click", function(){
+
+
+document.body.classList.toggle("dark");
+
+
+
+if(document.body.classList.contains("dark")){
+
+
+localStorage.setItem(
+"darkMode",
+"enabled"
+);
+
+
+}
+
+else{
+
+
+localStorage.setItem(
+"darkMode",
+"disabled"
+);
+
+
+}
+
+
+});
+
+
+}
+
+
+
+
+if(localStorage.getItem("darkMode") === "enabled"){
+
+
+document.body.classList.add("dark");
+
+
+}
