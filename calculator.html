@@ -3,105 +3,188 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>EcoLife Challenge | Carbon Calculator</title>
+<title>EcoLife Challenge | Carbon Calculator</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/darkmode.css">
-    <link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/darkmode.css">
+<link rel="stylesheet" href="css/animations.css">
 
 </head>
 
+
 <body>
 
-    <!-- Header -->
 
-    <header>
+<!-- HEADER -->
 
-        <div class="logo">
-            <h1>🌱 EcoLife Challenge</h1>
-        </div>
+<header>
 
-        <nav>
+<div class="logo">
 
-            <ul>
+<h1>🌱 EcoLife Challenge</h1>
 
-                <li><a href="index.html">Home</a></li>
-                <li><a href="challenges.html">Challenges</a></li>
-                <li><a href="learn.html">Learn</a></li>
-                <li><a href="calculator.html">Calculator</a></li>
-                <li><a href="quiz.html">Quiz</a></li>
-                <li><a href="progress.html">Progress</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+</div>
 
-            </ul>
 
-        </nav>
+<nav>
 
-    </header>
+<ul>
 
-    <!-- Main -->
+<li><a href="index.html">Home</a></li>
 
-    <main>
+<li><a href="challenges.html">Challenges</a></li>
 
-        <section id="calculator">
+<li><a href="learn.html">Learn</a></li>
 
-            <h2>Carbon Footprint Calculator</h2>
+<li><a href="calculator.html">Calculator</a></li>
 
-            <p>Enter your daily habits to estimate your environmental impact.</p>
+<li><a href="quiz.html">Quiz</a></li>
 
-            <form>
+<li><a href="progress.html">Progress</a></li>
 
-                <label for="name">Name</label>
-                <input type="text" id="name">
+<li><a href="about.html">About</a></li>
 
-                <label for="transport">Main Transport</label>
+<li><a href="contact.html">Contact</a></li>
 
-                <select id="transport">
+</ul>
 
-                    <option>Walk</option>
-                    <option>Bicycle</option>
-                    <option>Bus</option>
-                    <option>Train</option>
-                    <option>Car</option>
+</nav>
 
-                </select>
+</header>
 
-                <label for="electricity">Electricity Usage (hours/day)</label>
-                <input type="number" id="electricity">
 
-                <label for="water">Water Usage (litres/day)</label>
-                <input type="number" id="water">
 
-                <button type="button">Calculate</button>
+<!-- CALCULATOR HERO -->
 
-            </form>
 
-            <div id="result">
+<section id="calculator-hero">
 
-                <h3>Your Result</h3>
+<h2>Carbon Footprint Calculator</h2>
 
-                <p>Your carbon footprint result will appear here.</p>
+<p>
+Calculate your estimated environmental impact.
+</p>
 
-            </div>
+</section>
 
-        </section>
 
-    </main>
 
-    <!-- Footer -->
 
-    <footer>
+<!-- CALCULATOR FORM -->
 
-        <p>&copy; 2026 EcoLife Challenge | COM109 Coursework</p>
 
-    </footer>
+<section id="calculator">
 
-    <script src="js/calculator.js"></script>
+
+<h2>Enter Your Lifestyle Details</h2>
+
+
+<form id="carbonForm">
+
+
+
+<label>
+Transport Hours Per Week
+</label>
+
+
+<input 
+type="number"
+id="transport"
+min="0"
+required>
+
+
+
+
+<label>
+Electricity Usage Level (1-10)
+</label>
+
+
+<input 
+type="number"
+id="electricity"
+min="1"
+max="10"
+required>
+
+
+
+
+<label>
+Food Impact Level (1-10)
+</label>
+
+
+<input 
+type="number"
+id="food"
+min="1"
+max="10"
+required>
+
+
+
+
+<label>
+Recycling Effort (1-10)
+</label>
+
+
+<input 
+type="number"
+id="recycling"
+min="1"
+max="10"
+required>
+
+
+
+
+<button type="submit">
+
+Calculate Footprint
+
+</button>
+
+
+
+</form>
+
+
+
+
+<div id="result">
+
+</div>
+
+
+</section>
+
+
+
+
+<footer>
+
+<h3>
+🌱 EcoLife Challenge
+</h3>
+
+<p>
+Small actions today create a better planet tomorrow.
+</p>
+
+</footer>
+
+
+
+<script src="js/calculator.js"></script>
+
 
 </body>
 
