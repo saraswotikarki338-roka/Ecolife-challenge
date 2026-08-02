@@ -1,0 +1,70 @@
+/* ==========================
+   Animations CSS
+========================== */
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+/* Hero Animation */
+#hero {
+    animation: fadeIn 2s ease-in;
+}
+
+/* Card Hover Effect */
+.step,
+.challenge-card,
+.stat-box {
+    transition: transform 0.3s ease;
+}
+
+.step:hover,
+.challenge-card:hover,
+.stat-box:hover {
+    transform: translateY(-10px);
+}
+
+/* Button Hover Animation */
+button {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Navigation Hover */
+nav ul li a {
+    transition: color 0.3s ease;
+}
+
+/* Logo Hover */
+.logo h1 {
+    transition: transform 0.3s ease;
+}
+
+.logo h1:hover {
+    transform: scale(1.05);
+}
+
+/* Section Fade */
+#how-it-works,
+#featured-challenges,
+#statistics,
+#eco-fact {
+    animation: fadeIn 1.5s ease-in;
+}
