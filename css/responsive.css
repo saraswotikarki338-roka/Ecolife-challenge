@@ -3,92 +3,138 @@
 ========================== */
 
 
-/* Tablet Devices */
-@media screen and (max-width: 900px) {
+/* Tablets */
 
-    nav ul li {
-        display: block;
-        margin: 10px;
+@media (max-width: 900px) {
+
+
+    .nav-links {
+
+        flex-wrap: wrap;
+        justify-content: center;
+
     }
 
 
-    .steps {
+    .navbar {
+
+        flex-direction: column;
+        gap: 20px;
+
+        padding: 20px;
+
+    }
+
+
+
+    .hero h1 {
+
+        font-size: 45px;
+
+    }
+
+
+
+    .learn-grid,
+    #progress-dashboard {
+
         flex-direction: column;
         align-items: center;
+
     }
 
-
-    .step {
-        width: 80%;
-        margin-bottom: 20px;
-    }
-
-
-    .challenge-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-    .challenge-card {
-        width: 80%;
-        margin-bottom: 20px;
-    }
-
-
-    .stats {
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-    .stat-box {
-        width: 80%;
-        margin-bottom: 20px;
-    }
 
 }
 
 
-/* Mobile Devices */
-@media screen and (max-width: 600px) {
+
+/* Mobile Phones */
+
+@media (max-width: 600px) {
 
 
-    header {
-        padding: 15px;
+    .logo {
+
+        font-size: 20px;
+
     }
 
 
-    .logo h1 {
-        font-size: 25px;
+
+    .nav-links {
+
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+
     }
 
 
-    nav ul li {
-        display: block;
-        margin: 8px;
+
+    .hero {
+
+        height: auto;
+        padding: 80px 20px;
+
     }
 
 
-    #hero h2 {
-        font-size: 32px;
+
+    .hero h1 {
+
+        font-size: 35px;
+
     }
 
 
-    #hero p {
+
+    .hero p {
+
         font-size: 16px;
+
     }
 
 
-    #hero button {
-        padding: 12px 20px;
+
+    #learn-hero h2,
+    #calculator-hero h2,
+    #quiz-hero h2,
+    #progress-hero h2,
+    #about-hero h2,
+    #contact-hero h2 {
+
+        font-size: 30px;
+
     }
 
 
-    .step,
+
     .challenge-card,
-    .stat-box {
+    .learn-card,
+    .progress-card {
+
         width: 90%;
+
     }
+
+
+
+    #carbonForm,
+    #quizForm,
+    #contactForm {
+
+        width: 90%;
+        padding: 25px;
+
+    }
+
+
+
+    button {
+
+        width: 100%;
+
+    }
+
 
 }
