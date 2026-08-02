@@ -1,75 +1,105 @@
 /* ==========================
-   Dark Mode Styles
+   Dark Mode
 ========================== */
 
 
-/* Dark mode body */
-.dark-mode {
-    background-color: #1b1b1b;
+body.dark {
+
+    background-color: #121212;
     color: white;
+
 }
 
 
-/* Header */
-.dark-mode header {
-    background-color: #000000;
+
+body.dark header {
+
+    background-color: #1B1B1B;
+
 }
 
 
-/* Navigation links */
-.dark-mode nav ul li a {
+
+body.dark .navbar {
+
+    background-color: #1B1B1B;
+
+}
+
+
+
+body.dark .nav-links a {
+
     color: white;
+
 }
 
 
-.dark-mode nav ul li a:hover {
-    color: #FFC107;
+
+body.dark section {
+
+    background-color: #121212;
+
 }
 
 
-/* Hero Section */
-.dark-mode #hero {
-    background-color: #263238;
+
+body.dark .hero,
+body.dark #learn-hero,
+body.dark #challenge-hero,
+body.dark #calculator-hero,
+body.dark #quiz-hero,
+body.dark #progress-hero,
+body.dark #about-hero,
+body.dark #contact-hero {
+
+    background-color: #1B1B1B;
+
 }
 
 
-/* Sections */
-.dark-mode #how-it-works,
-.dark-mode #statistics {
-    background-color: #1b1b1b;
-}
 
+body.dark .challenge-card,
+body.dark .learn-card,
+body.dark .progress-card,
+body.dark .about-box,
+body.dark #carbonForm,
+body.dark #quizForm,
+body.dark #contactForm,
+body.dark .resource-box {
 
-/* Cards */
-.dark-mode .step,
-.dark-mode .challenge-card {
-    background-color: #333333;
+    background-color: #242424;
     color: white;
-    border-color: #555;
+
 }
 
 
-/* Statistics boxes */
-.dark-mode .stat-box {
-    background-color: #004d40;
+
+body.dark p,
+body.dark label,
+body.dark li {
+
+    color: #dddddd;
+
 }
 
 
-/* Eco Fact */
-.dark-mode #eco-fact,
-.dark-mode #featured-challenges {
-    background-color: #263238;
+
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+
+    color: #81C784;
+
 }
 
 
-/* Footer */
-.dark-mode footer {
-    background-color: #000000;
-}
 
+body.dark input,
+body.dark textarea {
 
-/* Button */
-.dark-mode button {
-    background-color: #FFC107;
-    color: black;
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+
 }
