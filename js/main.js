@@ -3,26 +3,44 @@
 // ===============================
 
 
-
+// ===============================
 // Start Challenge Button
+// ===============================
+
 const startButton = document.getElementById("startButton");
 
 if (startButton) {
+
     startButton.addEventListener("click", function () {
+
         window.location.href = "challenges.html";
+
     });
+
 }
 
+
+// ===============================
 // Daily Eco Facts
+// ===============================
+
 const ecoFacts = [
+
     "Recycling one aluminium can saves enough energy to power a TV for 3 hours.",
+
     "Turning off the tap while brushing your teeth can save up to 6 litres of water.",
+
     "Planting trees helps reduce carbon dioxide in the atmosphere.",
+
     "Using reusable bags reduces plastic pollution.",
+
     "Switching off unused lights helps save electricity."
+
 ];
 
+
 const fact = document.getElementById("fact");
+
 
 if (fact) {
 
@@ -31,15 +49,15 @@ if (fact) {
     fact.innerHTML = ecoFacts[randomFact];
 
 }
+
+
 // ===============================
 // Learn Page Read More Buttons
 // ===============================
 
-
 const learnButtons = document.querySelectorAll(
     ".learn-card button"
 );
-
 
 
 learnButtons.forEach(function(button) {
@@ -48,7 +66,9 @@ learnButtons.forEach(function(button) {
     button.addEventListener("click", function() {
 
 
-        const topic = button.parentElement.querySelector("h3").textContent;
+        const topic =
+        button.parentElement.querySelector("h3").textContent;
+
 
 
         if (topic.includes("Recycling")) {
@@ -99,61 +119,62 @@ learnButtons.forEach(function(button) {
 
 
 });
+
+
 // ===============================
 // Dark Mode Toggle
 // ===============================
-
 
 const darkButton =
 document.getElementById("darkToggle");
 
 
-
-if(darkButton){
-
-
-darkButton.addEventListener("click", function(){
+if (darkButton) {
 
 
-document.body.classList.toggle("dark");
+    darkButton.addEventListener("click", function() {
+
+
+        document.body.classList.toggle("dark");
 
 
 
-if(document.body.classList.contains("dark")){
+        if (document.body.classList.contains("dark")) {
 
 
-localStorage.setItem(
-"darkMode",
-"enabled"
-);
+            localStorage.setItem(
+                "darkMode",
+                "enabled"
+            );
+
+
+        }
+
+
+        else {
+
+
+            localStorage.setItem(
+                "darkMode",
+                "disabled"
+            );
+
+
+        }
+
+
+    });
 
 
 }
 
-else{
+
+// Keep dark mode after refresh
+
+if (localStorage.getItem("darkMode") === "enabled") {
 
 
-localStorage.setItem(
-"darkMode",
-"disabled"
-);
-
-
-}
-
-
-});
-
-
-}
-
-
-
-
-if(localStorage.getItem("darkMode") === "enabled"){
-
-
-document.body.classList.add("dark");
+    document.body.classList.add("dark");
 
 
 }
