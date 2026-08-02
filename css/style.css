@@ -829,3 +829,133 @@ footer {
     margin: 15px;
 
 }
+/* ==========================
+   Carbon Calculator Page
+========================== */
+
+
+/* Calculator Hero */
+
+#calculator-hero {
+
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #E8F5E9;
+
+}
+
+
+#calculator-hero h2 {
+
+    font-size: 40px;
+    color: #2E7D32;
+    margin-bottom: 15px;
+
+}
+
+
+#calculator-hero p {
+
+    font-size: 18px;
+    color: #555;
+
+}
+
+
+
+/* Calculator Section */
+
+
+#calculator {
+
+    padding: 60px 20px;
+    text-align: center;
+
+}
+
+
+#calculator h2 {
+
+    color: #2E7D32;
+    font-size: 36px;
+    margin-bottom: 30px;
+
+}
+
+
+
+#carbonForm {
+
+    max-width: 500px;
+    margin: auto;
+    background-color: #F5FFF5;
+    padding: 35px;
+    border-radius: 15px;
+    border: 1px solid #C8E6C9;
+
+}
+
+
+
+#carbonForm label {
+
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+
+}
+
+
+
+#carbonForm input {
+
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+
+}
+
+
+
+#carbonForm button {
+
+    margin-top: 25px;
+    padding: 14px 30px;
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+
+
+#carbonForm button:hover {
+
+    background-color: #1B5E20;
+
+}
+
+
+
+
+/* Result Box */
+
+
+#result {
+
+    margin: 30px auto;
+    max-width: 500px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #E8F5E9;
+    font-size: 20px;
+    color: #2E7D32;
+
+}
