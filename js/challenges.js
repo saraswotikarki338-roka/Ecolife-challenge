@@ -113,3 +113,62 @@ completeButtons.forEach(function(button) {
 
 
 });
+// ===============================
+// Favourite Challenge System
+// Using localStorage
+// ===============================
+
+
+const favouriteButtons = document.querySelectorAll(
+    ".challenge-card button:first-of-type"
+);
+
+
+favouriteButtons.forEach(function(button) {
+
+
+    button.addEventListener("click", function() {
+
+
+        const card = button.parentElement;
+
+
+        const challengeName = card.querySelector("h3").textContent;
+
+
+
+        let favourites = JSON.parse(
+            localStorage.getItem("favourites")
+        ) || [];
+
+
+
+        if (!favourites.includes(challengeName)) {
+
+
+            favourites.push(challengeName);
+
+
+            localStorage.setItem(
+                "favourites",
+                JSON.stringify(favourites)
+            );
+
+
+            button.textContent = "⭐ Favourite Added";
+
+
+        } else {
+
+
+            button.textContent = "⭐ Already Added";
+
+
+        }
+
+
+
+    });
+
+
+});
