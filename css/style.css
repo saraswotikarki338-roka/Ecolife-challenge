@@ -1225,3 +1225,95 @@ footer {
     transition: width 0.5s ease;
 
 }
+/* ==========================
+   About Page
+========================== */
+
+
+/* About Hero */
+
+
+#about-hero {
+
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #E8F5E9;
+
+}
+
+
+#about-hero h2 {
+
+    font-size: 40px;
+    color: #2E7D32;
+    margin-bottom: 15px;
+
+}
+
+
+#about-hero p {
+
+    font-size: 18px;
+    color: #555;
+
+}
+
+
+
+/* About Content */
+
+
+#about-content {
+
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+
+}
+
+
+
+.about-box {
+
+    background-color: #F5FFF5;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    border: 1px solid #C8E6C9;
+
+}
+
+
+
+.about-box h2 {
+
+    color: #2E7D32;
+    margin-bottom: 20px;
+
+}
+
+
+
+.about-box p {
+
+    color: #555;
+    line-height: 1.6;
+
+}
+
+
+
+.about-box ul {
+
+    padding-left: 20px;
+
+}
+
+
+
+.about-box li {
+
+    margin: 10px 0;
+    color: #555;
+
+}
