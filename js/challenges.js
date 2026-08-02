@@ -63,8 +63,9 @@ filterButtons.forEach(function(button) {
 
 
             let difficulty = card.querySelector(".difficulty")
-            .textContent
-            .toLowerCase();
+.textContent
+.trim()
+.toLowerCase();
 
 
 
