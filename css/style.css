@@ -473,3 +473,193 @@ footer {
     margin-top: 20px;
 
 }
+/* ==========================
+   Challenges Page
+========================== */
+
+
+/* Challenge Hero */
+
+#challenge-hero {
+
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #E8F5E9;
+
+}
+
+
+#challenge-hero h2 {
+
+    font-size: 40px;
+    color: #2E7D32;
+    margin-bottom: 15px;
+
+}
+
+
+#challenge-hero p {
+
+    font-size: 18px;
+    color: #555;
+
+}
+
+
+
+/* Search and Filter */
+
+#challenge-tools {
+
+    padding: 40px 20px;
+    text-align: center;
+
+}
+
+
+#searchChallenge {
+
+    width: 300px;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+
+}
+
+
+
+.filter-buttons {
+
+    margin-top: 25px;
+
+}
+
+
+.filter-buttons button {
+
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #2E7D32;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+
+.filter-buttons button:hover {
+
+    background-color: #1B5E20;
+
+}
+
+
+
+/* Challenge Cards Area */
+
+#challenge-list {
+
+    padding: 50px 20px;
+
+}
+
+
+.challenge-grid {
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+
+
+
+.challenge-card {
+
+    width: 300px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #C8E6C9;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+
+.challenge-card h3 {
+
+    color: #2E7D32;
+    margin-bottom: 15px;
+
+}
+
+
+.challenge-card p {
+
+    color: #555;
+    margin-bottom: 20px;
+
+}
+
+
+
+/* Difficulty Labels */
+
+.difficulty {
+
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+
+}
+
+
+.easy {
+
+    background-color: #C8E6C9;
+
+}
+
+
+.medium {
+
+    background-color: #FFF59D;
+
+}
+
+
+.hard {
+
+    background-color: #FFCDD2;
+
+}
+
+
+
+/* Card Buttons */
+
+.challenge-card button {
+
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    background-color: #2E7D32;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.challenge-card button:hover {
+
+    background-color: #1B5E20;
+
+}
