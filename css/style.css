@@ -663,3 +663,169 @@ footer {
     background-color: #1B5E20;
 
 }
+/* ==========================
+   Learn Page
+========================== */
+
+
+/* Learn Hero */
+
+#learn-hero {
+
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #E8F5E9;
+
+}
+
+
+#learn-hero h2 {
+
+    font-size: 40px;
+    color: #2E7D32;
+    margin-bottom: 15px;
+
+}
+
+
+#learn-hero p {
+
+    font-size: 18px;
+    color: #555;
+
+}
+
+
+
+/* Learning Topics */
+
+
+#learning-topics {
+
+    padding: 60px 20px;
+    text-align: center;
+
+}
+
+
+#learning-topics h2 {
+
+    font-size: 36px;
+    color: #2E7D32;
+    margin-bottom: 40px;
+
+}
+
+
+
+.learn-grid {
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+
+
+
+.learn-card {
+
+    width: 280px;
+    padding: 30px;
+    background-color: #F5FFF5;
+    border-radius: 15px;
+    border: 1px solid #C8E6C9;
+    transition: transform 0.3s ease;
+
+}
+
+
+
+.learn-card:hover {
+
+    transform: translateY(-10px);
+
+}
+
+
+
+.learn-card h3 {
+
+    color: #2E7D32;
+    margin-bottom: 15px;
+
+}
+
+
+
+.learn-card p {
+
+    color: #555;
+    margin-bottom: 25px;
+
+}
+
+
+
+.learn-card button {
+
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+
+
+.learn-card button:hover {
+
+    background-color: #1B5E20;
+
+}
+
+
+
+/* Resources */
+
+
+#resources {
+
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #E8F5E9;
+
+}
+
+
+
+#resources h2 {
+
+    color: #2E7D32;
+    font-size: 36px;
+    margin-bottom: 30px;
+
+}
+
+
+
+.resource-box {
+
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+
+.resource-box p {
+
+    font-size: 18px;
+    margin: 15px;
+
+}
