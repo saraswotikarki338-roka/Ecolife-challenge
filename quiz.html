@@ -3,110 +3,221 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>EcoLife Challenge | Eco Quiz</title>
+<title>EcoLife Challenge | Quiz</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/darkmode.css">
-    <link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/darkmode.css">
+<link rel="stylesheet" href="css/animations.css">
 
 </head>
 
+
 <body>
 
-    <!-- Header -->
 
-    <header>
+<!-- HEADER -->
 
-        <div class="logo">
-            <h1>🌱 EcoLife Challenge</h1>
-        </div>
+<header>
 
-        <nav>
+<div class="logo">
 
-            <ul>
+<h1>🌱 EcoLife Challenge</h1>
 
-                <li><a href="index.html">Home</a></li>
-                <li><a href="challenges.html">Challenges</a></li>
-                <li><a href="learn.html">Learn</a></li>
-                <li><a href="calculator.html">Calculator</a></li>
-                <li><a href="quiz.html">Quiz</a></li>
-                <li><a href="progress.html">Progress</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+</div>
 
-            </ul>
 
-        </nav>
+<nav>
 
-    </header>
+<ul>
 
-    <!-- Main -->
+<li><a href="index.html">Home</a></li>
 
-    <main>
+<li><a href="challenges.html">Challenges</a></li>
 
-        <section id="quiz">
+<li><a href="learn.html">Learn</a></li>
 
-            <h2>Eco Quiz</h2>
+<li><a href="calculator.html">Calculator</a></li>
 
-            <p>Test your knowledge about protecting the environment.</p>
+<li><a href="quiz.html">Quiz</a></li>
 
-            <form>
+<li><a href="progress.html">Progress</a></li>
 
-                <h3>1. Which bin should plastic bottles go into?</h3>
+<li><a href="about.html">About</a></li>
 
-                <input type="radio" id="q1a" name="q1">
-                <label for="q1a">General Waste</label><br>
+<li><a href="contact.html">Contact</a></li>
 
-                <input type="radio" id="q1b" name="q1">
-                <label for="q1b">Recycling Bin</label><br>
+</ul>
 
-                <input type="radio" id="q1c" name="q1">
-                <label for="q1c">Food Waste Bin</label>
+</nav>
 
-                <br><br>
+</header>
 
-                <h3>2. Which action saves electricity?</h3>
 
-                <input type="radio" id="q2a" name="q2">
-                <label for="q2a">Leaving lights on</label><br>
 
-                <input type="radio" id="q2b" name="q2">
-                <label for="q2b">Turning lights off when leaving a room</label><br>
+<!-- QUIZ HERO -->
 
-                <input type="radio" id="q2c" name="q2">
-                <label for="q2c">Keeping chargers plugged in</label>
 
-                <br><br>
+<section id="quiz-hero">
 
-                <button type="button">Submit Quiz</button>
+<h2>Eco Knowledge Quiz 🌍</h2>
 
-            </form>
+<p>
+Test your knowledge about protecting our planet.
+</p>
 
-            <div id="quiz-result">
+</section>
 
-                <h3>Your Score</h3>
 
-                <p>Your quiz score will appear here.</p>
 
-            </div>
 
-        </section>
+<!-- QUIZ -->
 
-    </main>
 
-    <!-- Footer -->
+<section id="quiz-section">
 
-    <footer>
 
-        <p>&copy; 2026 EcoLife Challenge | COM109 Coursework</p>
+<form id="quizForm">
 
-    </footer>
 
-    <script src="js/quiz.js"></script>
+
+<div class="question">
+
+
+<h3>
+1. Which material can be recycled?
+</h3>
+
+
+<label>
+<input type="radio" name="q1" value="correct">
+Glass
+</label>
+
+
+<label>
+<input type="radio" name="q1" value="wrong">
+Food waste
+</label>
+
+
+<label>
+<input type="radio" name="q1" value="wrong">
+Oil
+</label>
+
+
+</div>
+
+
+
+
+<div class="question">
+
+
+<h3>
+2. Which action saves energy?
+</h3>
+
+
+<label>
+<input type="radio" name="q2" value="correct">
+Turning off unused lights
+</label>
+
+
+<label>
+<input type="radio" name="q2" value="wrong">
+Leaving devices on
+</label>
+
+
+<label>
+<input type="radio" name="q2" value="wrong">
+Using more electricity
+</label>
+
+
+</div>
+
+
+
+
+
+<div class="question">
+
+
+<h3>
+3. Which reduces plastic waste?
+</h3>
+
+
+<label>
+<input type="radio" name="q3" value="correct">
+Using reusable bags
+</label>
+
+
+<label>
+<input type="radio" name="q3" value="wrong">
+Buying more plastic
+</label>
+
+
+<label>
+<input type="radio" name="q3" value="wrong">
+Throwing bottles away
+</label>
+
+
+</div>
+
+
+
+
+<button type="submit">
+
+Submit Quiz
+
+</button>
+
+
+
+</form>
+
+
+
+<div id="quiz-result">
+
+</div>
+
+
+
+</section>
+
+
+
+
+<footer>
+
+<h3>
+🌱 EcoLife Challenge
+</h3>
+
+<p>
+Small actions today create a better planet tomorrow.
+</p>
+
+</footer>
+
+
+
+
+<script src="js/quiz.js"></script>
+
 
 </body>
 
