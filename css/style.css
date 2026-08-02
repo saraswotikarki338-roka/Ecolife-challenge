@@ -361,3 +361,115 @@ footer {
     margin: 0;
 
 }
+/* ==========================
+   Daily Eco Fact
+========================== */
+
+#eco-fact {
+
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #E8F5E9;
+
+}
+
+
+#eco-fact h2 {
+
+    color: #2E7D32;
+    font-size: 36px;
+
+}
+
+
+#fact {
+
+    font-size: 20px;
+    margin: 30px auto;
+    max-width: 700px;
+
+}
+
+
+#eco-fact button {
+
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+
+
+/* ==========================
+   Newsletter
+========================== */
+
+
+#newsletter {
+
+    padding: 60px 20px;
+    text-align: center;
+
+}
+
+
+#newsletter input {
+
+    padding: 12px;
+    width: 250px;
+    border: 1px solid #ccc;
+
+}
+
+
+#newsletter button {
+
+    padding: 12px 25px;
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+
+}
+
+
+
+/* ==========================
+   Footer
+========================== */
+
+
+footer {
+
+    background-color: #2E7D32;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+
+}
+
+
+.footer-content h3 {
+
+    font-size: 25px;
+
+}
+
+
+.social-links a {
+
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+
+.copyright {
+
+    margin-top: 20px;
+
+}
