@@ -1,5 +1,5 @@
 // ===============================
-// EcoLife Challenge - Challenges JS
+// Eco Journey - Challenges JS
 // ===============================
 
 
