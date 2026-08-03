@@ -86,7 +86,15 @@ nav ul li a:hover {
 #hero button:hover {
     background-color: #C8E6C9;
 }
+.hero-image {
+    margin-top: 40px;
+}
 
+.hero-image img {
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+}
 /* ==========================
    How It Works
 ========================== */
