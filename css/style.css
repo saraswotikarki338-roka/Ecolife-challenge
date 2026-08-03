@@ -1497,3 +1497,19 @@ footer {
     margin-bottom: 20px;
 
 }
+#progress img {
+
+    width: 250px;
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+
+}
+#quiz img {
+
+    width: 250px;
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+
+}
