@@ -1449,3 +1449,11 @@ footer {
     color: #2E7D32;
 
 }
+.challenge-card img {
+
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 15px;
+
+}
