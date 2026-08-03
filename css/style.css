@@ -189,22 +189,23 @@ footer {
    Why Choose eco journey
 ========================== */
 
-#why-Eco Journey {
-    padding: 60px 20px;
+#why-ecojourney {
     text-align: center;
+    padding: 60px 20px;
     background-color: #ffffff;
 }
 
-#why-Eco Journey h2 {
+#why-ecojourney h2 {
     font-size: 36px;
     color: #2E7D32;
     margin-bottom: 20px;
 }
 
-#why-Eco Journey p {
+#why-ecojourney > p {
     font-size: 18px;
-    margin-bottom: 40px;
-    color: #555555;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
 }
 
 .features {
