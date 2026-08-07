@@ -1542,3 +1542,14 @@ footer {
     width: 280px;
     padding: 25px;
 }
+.challenges-container {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.challenge-card {
+    width: 300px;
+}
