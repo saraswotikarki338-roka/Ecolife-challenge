@@ -186,7 +186,7 @@ footer {
     padding: 20px;
 }
 /* ==========================
-   Why Choose eco journey
+   Why Choose ecojourney
 ========================== */
 
 #why-ecojourney {
@@ -1542,13 +1542,9 @@ footer {
     width: 280px;
     padding: 25px;
 }
-/* Added hover animation for challenge cards */
-.challenge-card:hover {
-    transform: translateY(-5px);
-    transition: 0.3s ease;
-}
-/* Active navigation link styling */
-nav a.active {
-    font-weight: bold;
-    text-decoration: underline;
+.challenge-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 20px;
 }
