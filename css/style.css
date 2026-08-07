@@ -1564,3 +1564,9 @@ footer {
 .challenge-card {
     width: 300px;
 }
+.feature-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
