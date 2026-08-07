@@ -1542,3 +1542,8 @@ footer {
     width: 280px;
     padding: 25px;
 }
+/* Added hover animation for challenge cards */
+.challenge-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
