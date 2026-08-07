@@ -1553,3 +1553,14 @@ footer {
 .challenge-card {
     width: 300px;
 }
+.challenge-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.challenge-card {
+    width: 300px;
+}
